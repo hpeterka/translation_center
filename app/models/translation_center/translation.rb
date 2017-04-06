@@ -40,7 +40,6 @@ module TranslationCenter
 
     alias_method :key, :translation_key
     acts_as_votable
-    audited
 
     # Serialize as we could store arrays
     serialize :value

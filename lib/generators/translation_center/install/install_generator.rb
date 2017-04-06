@@ -29,7 +29,7 @@ module TranslationCenter
 
       # unless ActiveRecord::Base.connection.table_exists? 'audits'
         # we use audited for tracking activity
-        Rails::Generators.invoke('audited:install')
+        #Rails::Generators.invoke('audited:install')
       # end
     end
 
